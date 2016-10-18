@@ -1,0 +1,230 @@
+.ct-newsletter-section .container {
+    width: 100%;
+    max-width: 1360px;
+}
+.ct-section-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #101f1d;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45px;
+    letter-spacing: 1.25px;
+    margin-bottom: 5px;
+}
+@media (max-height: 766px)
+.ct-newsletter-section .ct-section-header {
+    padding-top: 60px;
+}
+@media only screen and (min-width: 1399px)
+.ct-newsletter-section .ct-section-header {
+    padding-top: 135px;
+    letter-spacing: 1.4px;
+    margin-left: -12px;
+}
+.ct-section-header {
+    padding-top: 35px;
+}
+.ct-newsletter-inline {
+    display: table;
+    width: 100%;
+    color: white;
+    margin: 69px 0 138px;
+    text-align: center;
+}
+@media (max-height: 766px)
+.ct-newsletter-inline {
+    margin: 40px auto 70px;
+    width: 90%;
+}
+.ct-newsletter-inline__facebook {
+    background-color: #3b5997;
+}
+@media only screen and (min-width: 1024px)
+.ct-newsletter-inline > * {
+    display: table-cell;
+    vertical-align: middle;
+    height: 213px;
+}
+.ct-newsletter-inline__facebook, .ct-newsletter-inline__twitter {
+    width: 16%;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+a {
+    -webkit-transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 250ms cubic-bezier(0.55, 0, 0.1, 1);
+}
+.ct-newsletter-inline__facebook i, .ct-newsletter-inline__twitter i {
+    font-size: 109px;
+    padding-top: 25px;
+}
+.ct-newsletter-inline__facebook span, .ct-newsletter-inline__twitter span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    display: block;
+    padding-top: 15px;
+}
+.ct-newsletter-inline__twitter {
+    background-color: #2fc2ee;
+}
+@media only screen and (min-width: 1024px)
+.ct-newsletter-inline > * {
+    display: table-cell;
+    vertical-align: middle;
+    height: 213px;
+}
+.ct-newsletter-inline__facebook, .ct-newsletter-inline__twitter {
+    width: 16%;
+}
+.ct-newsletter-inline__facebook i, .ct-newsletter-inline__twitter i {
+    font-size: 109px;
+    padding-top: 25px;
+}
+@media only screen and (min-width: 1024px)
+.ct-newsletter-inline__twitter span {
+    padding-top: 8px;
+}
+.ct-newsletter-inline__facebook span, .ct-newsletter-inline__twitter span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    display: block;
+    padding-top: 15px;
+}
+.ct-newsletter-inline__form {
+    background-color: #ea2527;
+    padding: 24px;
+}
+@media only screen and (min-width: 1024px)
+.ct-newsletter-inline > * {
+    display: table-cell;
+    vertical-align: middle;
+    height: 213px;
+}
+.ct-newsletter-inline__form {
+    width: 68%;
+}
+.ct-newsletter-inline__form .ct-newsletter {
+    text-align: left;
+    width: 100%;
+    max-width: 668px;
+    margin: 0px auto;
+}
+.ct-newsletter-inline__form label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 17px 0 14px 6px;
+    letter-spacing: 0.3px;
+}
+@media only screen and (min-width: 1399px)
+.ct-newsletter-inline__form .form-inline {
+    position: relative;
+}
+.ct-newsletter-inline__form .form-inline {
+    display: table;
+    width: 100%;
+    height: 65px;
+}
+.ct-newsletter-inline__form .form-inline input {
+    width: 50%;
+    width: calc(100% - 137px);
+    padding: 0 40px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #111f1d;
+    text-transform: uppercase;
+}
+.ct-newsletter-inline__form .form-inline input, .ct-newsletter-inline__form .form-inline .btn {
+    display: table-cell;
+    vertical-align: middle;
+    height: 65px;
+    border: none;
+    margin: 0;
+}
+.ct-newsletter-inline__form .form-inline .btn {
+    width: 137px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    padding-left: 0;
+    padding-right: 3px;
+    text-align: center;
+}
+.ct-newsletter-inline__form .form-inline input, .ct-newsletter-inline__form .form-inline .btn {
+    display: table-cell;
+    vertical-align: middle;
+    height: 65px;
+    border: none;
+    margin: 0;
+}
+.btn.btn-dark {
+    background: #111f1d;
+    color: white;
+}
+.btn {
+    font-size: 15px;
+    padding: 22px 46px 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    letter-spacing: 0.3px;
+}
+@media (max-width: 1398px) and (min-width: 1024px)
+.ct-newsletter-inline > * {
+    height: 180px;
+}
+.ct-newsletter-inline__facebook {
+    background-color: #3b5997;
+}
+@media only screen and (min-width: 1024px)
+.ct-newsletter-inline > * {
+    display: table-cell;
+    vertical-align: middle;
+    height: 213px;
+}
+.ct-newsletter-inline__facebook, .ct-newsletter-inline__twitter {
+    width: 16%;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.ct-newsletter-inline__facebook i, .ct-newsletter-inline__twitter i {
+    font-size: 109px;
+    padding-top: 25px;
+}
+.ct-newsletter-inline__facebook span, .ct-newsletter-inline__twitter span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    display: block;
+    padding-top: 15px;
+}
+.ct-newsletter-inline > * {
+      display: table-cell;
+      vertical-align: middle;
+      height: 213px; 
+}
+
+
+
+
+
+
+
+
+
